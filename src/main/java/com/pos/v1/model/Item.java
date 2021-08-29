@@ -17,7 +17,7 @@ public class Item {
     private String name;
     private float weigth;
     private String manufacturar;
-
+    //TODO add this file to constructor and generate getter and setter
     @ManyToOne
     private ShoppingCard card;
 
