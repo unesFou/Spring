@@ -1,4 +1,4 @@
-package com.pos.v1.model;
+package com.pos.v1.entities;
 
 import java.util.List;
 
@@ -19,7 +19,7 @@ public class ShoppingCard {
     private int id;
     
    
-    @OneToMany(mappedBy = "id")
+    @OneToMany(mappedBy = "card")
     private List<Item> item;
    
     public ShoppingCard() {

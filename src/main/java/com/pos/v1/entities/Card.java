@@ -1,4 +1,4 @@
-package com.pos.v1.model;
+package com.pos.v1.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

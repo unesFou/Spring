@@ -1,4 +1,4 @@
-package com.pos.v1.model;
+package com.pos.v1.entities;
 
 public class Receipt {
 
