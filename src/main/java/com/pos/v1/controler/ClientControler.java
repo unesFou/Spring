@@ -15,13 +15,13 @@ public class ClientControler {
 
 private final ClientService clientService;
 
-public ClientControler(ClientService clientService) {
-    this.clientService = clientService;
-}
+ public ClientControler(ClientService clientService) {
+     this.clientService = clientService;
+ }
 
  // Get All client
-@GetMapping("/clients")
+ @GetMapping("/clients")
 List<Client> all() {
-   return clientService.sellectAllClient();
- }
+    return clientService.sellectAllClient();
+  }
 }
