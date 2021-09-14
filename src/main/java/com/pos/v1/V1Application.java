@@ -9,7 +9,6 @@ public class V1Application {
 	//TODO All Time
 	public static void main(String[] args) {
 		SpringApplication.run(V1Application.class, args);
-		//System.out.println("tttttttttttttttttttttttt");
-	}
+		}
 
 }
